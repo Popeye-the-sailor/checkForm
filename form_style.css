@@ -1,0 +1,32 @@
+*{ margin: 0; padding: 0}
+
+body {
+	font: 13px Arial,sans-serif;
+}
+
+#feedback-box {
+	width: 400px;
+	margin: 20 px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#feedback-box h2 {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	font-size: 23px;
+	color: #414141;
+	margin: 0;
+}
+
+#feedback-form {
+	padding: 20px 25px;
+	border-bottom: 1px solid #fff;
+}
+
+.error-box {
+	color: red;
+	font-size: 12px;
+}

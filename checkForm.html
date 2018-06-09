@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="form_style.css">
+	<script src="jquery1.js"></script>
+</head>
+<body>
+	<div id="feedback-form">
+			<h2>Связь со нмой</h2>
+			<form action="" id="feedback-form">
+				<div class="input-block w1">
+					<label for="name">Имя</label>
+					<input type="text" size="25" name="name" id="name">
+					<div class="error-box"></div><!-- Контейнер для ошибок -->
+				</div>
+				<div class="input-block w1">
+					<label for="email">E-mail</label>
+					<input type="text" size="25" name="email" id="email">
+					<div class="error-box"></div><!-- Контейнер для ошибок -->
+				</div>
+				<div class="input-block w1">
+					<label for="message">Имя</label>
+					<textarea name="message" cols="50" rows="10" id="message"></textarea>
+					<div class="error-box"></div><!-- Контейнер для ошибок -->
+				</div>
+				<div>
+					<input type="submit" id="send" value="Отправить письмо">
+				</div>
+			</form>
+	</div>	
+	<script src="form_script.js"></script>
+</body>
+</html>
